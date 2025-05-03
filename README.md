@@ -1,4 +1,4 @@
-# 🧠 Resume Screening Bot with LangChain + Ollama
+# Resume Screening Bot with LangChain + Ollama
 
 This project automates resume screening by parsing PDF resumes and scoring them against a given job description using an LLM (LLaMA 3.2 via Ollama). It uses:
 
