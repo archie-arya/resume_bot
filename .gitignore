@@ -2,3 +2,11 @@
 /data
 /venv
 /myenv
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
