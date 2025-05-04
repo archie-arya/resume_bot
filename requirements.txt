@@ -9,7 +9,6 @@ PyMuPDF>=1.22.5  # for 'fitz'
 langchain-core>=0.1.30
 langchain-community>=0.0.30
 
-# Optional: If you're using Airflow (commented out for now)
-# apache-airflow==2.7.3
+
 
 # If you're using Python 3.9, make sure to match compatible versions
