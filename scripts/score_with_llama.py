@@ -58,10 +58,10 @@ def parse_and_score_resumes():
                     score, reason = score_resume(text, job_description)
                     reason = reason.replace(",", " ")
                     f.write(f"{file_name},{preview},{score},{reason}\n")
-                    print(f"✅ Parsed and scored {file_name}: {score}")
+                    print(f"Parsed and scored {file_name}: {score}")
                 except Exception as e:
                     f.write(f"{file_name},ERROR,0,Error parsing: {str(e)}\n")
-                    print(f"❌ Failed to process {file_name}: {e}")
+                    print(f"Failed to process {file_name}: {e}")
 
 if __name__ == "__main__":
     parse_and_score_resumes()
